@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46458390049b8a4c55c6a2ad8d04822b",
+    "hash": "35ef1a4d3b955fb0b9a3456391772c7c",
     "packages": [
         {
             "name": "aoepeople/composer-installers",
@@ -98,7 +98,7 @@
         },
         {
             "name": "raminv80/magento-deployscripts",
-            "version": "dev-master",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/raminv80/magento-deployscripts.git",

@@ -5,6 +5,9 @@
         "aoepeople/composer-installers": "*",
         "aoepeople/envsettingstool": "*",
         "tmp/magento_community": "1.9.1.0",
+        "raminv80/magento-deployscripts": "*"
+    },
+    "replace": {
         "aoepeople/magento-deployscripts": "1.0.7"
     },
     "repositories": [
@@ -22,7 +25,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/AOEpeople/magento-deployscripts.git"
+            "url": "https://github.com/raminv80/magento-deployscripts.git"
         },
         {
             "type": "package",

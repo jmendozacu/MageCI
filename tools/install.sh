@@ -1,1 +1,1 @@
-../vendor/aoepeople/magento-deployscripts/install.sh
+../vendor/raminv80/magento-deployscripts/install.sh

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f1ff3e628004a95fcf9c4b4ae843a591",
+    "hash": "46458390049b8a4c55c6a2ad8d04822b",
     "packages": [
         {
             "name": "aoepeople/composer-installers",
@@ -97,17 +97,17 @@
             "time": "2015-03-31 17:27:59"
         },
         {
-            "name": "aoepeople/magento-deployscripts",
-            "version": "v1.0.7",
+            "name": "raminv80/magento-deployscripts",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/AOEpeople/magento-deployscripts.git",
-                "reference": "b715976dd345fbc7186aeabd8ca4c4c6326e2259"
+                "url": "https://github.com/raminv80/magento-deployscripts.git",
+                "reference": "ca37f52b4cad3d836c3205d4198af4bf1351cd74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AOEpeople/magento-deployscripts/zipball/b715976dd345fbc7186aeabd8ca4c4c6326e2259",
-                "reference": "b715976dd345fbc7186aeabd8ca4c4c6326e2259",
+                "url": "https://api.github.com/repos/raminv80/magento-deployscripts/zipball/ca37f52b4cad3d836c3205d4198af4bf1351cd74",
+                "reference": "ca37f52b4cad3d836c3205d4198af4bf1351cd74",
                 "shasum": ""
             },
             "bin": [
@@ -124,10 +124,9 @@
             ],
             "description": "Collection of scripts for Magento builds and deployments",
             "support": {
-                "source": "https://github.com/AOEpeople/magento-deployscripts/tree/v1.0.7",
-                "issues": "https://github.com/AOEpeople/magento-deployscripts/issues"
+                "source": "https://github.com/raminv80/magento-deployscripts/tree/master"
             },
-            "time": "2015-01-29 20:00:23"
+            "time": "2015-04-25 09:35:41"
         },
         {
             "name": "tmp/magento_community",

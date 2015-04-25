@@ -5,7 +5,7 @@
         "aoepeople/composer-installers": "*",
         "aoepeople/envsettingstool": "*",
         "tmp/magento_community": "1.9.1.0",
-        "raminv80/magento-deployscripts": "1.0.8"
+        "raminv80/magento-deployscripts": "1.0.9"
     },
     "replace": {
         "aoepeople/magento-deployscripts": "1.0.7"

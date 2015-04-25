@@ -1,0 +1,152 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f1ff3e628004a95fcf9c4b4ae843a591",
+    "packages": [
+        {
+            "name": "aoepeople/composer-installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AOEpeople/composer-installers.git",
+                "reference": "9e8c507177fd9d837e3562c7dd71ee35e684e1f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AOEpeople/composer-installers/zipball/9e8c507177fd9d837e3562c7dd71ee35e684e1f4",
+                "reference": "9e8c507177fd9d837e3562c7dd71ee35e684e1f4",
+                "shasum": ""
+            },
+            "replace": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Aoepeople\\ComposerInstallers\\Installer"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Aoepeople\\ComposerInstallers\\": "src/"
+                }
+            },
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabrizio Branca",
+                    "email": "{firstname}.{lastname}@aoe.com"
+                }
+            ],
+            "description": "A simple composer installer",
+            "keywords": [
+                "Magento",
+                "installer",
+                "modman"
+            ],
+            "support": {
+                "source": "https://github.com/AOEpeople/composer-installers/tree/v0.0.1",
+                "issues": "https://github.com/AOEpeople/composer-installers/issues"
+            },
+            "time": "2014-03-07 20:11:42"
+        },
+        {
+            "name": "aoepeople/envsettingstool",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AOEpeople/EnvSettingsTool.git",
+                "reference": "0f14b2a850f295f03f0b63c4a63d8a318dd60769"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AOEpeople/EnvSettingsTool/zipball/0f14b2a850f295f03f0b63c4a63d8a318dd60769",
+                "reference": "0f14b2a850f295f03f0b63c4a63d8a318dd60769",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "bin": [
+                "value.php",
+                "apply.php",
+                "dryRun.php",
+                "extract.php"
+            ],
+            "type": "library",
+            "license": [
+                "GPL v3"
+            ],
+            "authors": [
+                {
+                    "name": "Fabrizio Branca"
+                },
+                {
+                    "name": "Daniel Pötzinger"
+                }
+            ],
+            "description": "Environment Settings Tool",
+            "homepage": "https://github.com/AOEpeople/EnvSettingsTool",
+            "support": {
+                "source": "https://github.com/AOEpeople/EnvSettingsTool/tree/master",
+                "issues": "https://github.com/AOEpeople/EnvSettingsTool/issues"
+            },
+            "time": "2015-03-31 17:27:59"
+        },
+        {
+            "name": "aoepeople/magento-deployscripts",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AOEpeople/magento-deployscripts.git",
+                "reference": "b715976dd345fbc7186aeabd8ca4c4c6326e2259"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AOEpeople/magento-deployscripts/zipball/b715976dd345fbc7186aeabd8ca4c4c6326e2259",
+                "reference": "b715976dd345fbc7186aeabd8ca4c4c6326e2259",
+                "shasum": ""
+            },
+            "bin": [
+                "install.sh",
+                "n98-magerun.phar",
+                "modman",
+                "systemstorage_import.sh"
+            ],
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Fabrizio Branca"
+                }
+            ],
+            "description": "Collection of scripts for Magento builds and deployments",
+            "support": {
+                "source": "https://github.com/AOEpeople/magento-deployscripts/tree/v1.0.7",
+                "issues": "https://github.com/AOEpeople/magento-deployscripts/issues"
+            },
+            "time": "2015-01-29 20:00:23"
+        },
+        {
+            "name": "tmp/magento_community",
+            "version": "1.9.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/OpenMage/magento-mirror/archive/1.9.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "magento-source"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

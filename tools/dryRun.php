@@ -1,0 +1,1 @@
+../vendor/aoepeople/envsettingstool/dryRun.php

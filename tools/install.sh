@@ -1,0 +1,1 @@
+../vendor/aoepeople/magento-deployscripts/install.sh
